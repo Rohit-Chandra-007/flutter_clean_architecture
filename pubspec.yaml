@@ -1,0 +1,48 @@
+name: flutter_clean_architecture
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  another_flushbar: ^1.12.30
+  bloc: ^8.1.4
+  cached_network_image: ^3.4.1
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  fluttertoast: ^8.2.8
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  get_it: ^8.0.2
+  go_router: ^14.6.2
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  json_serializable: ^6.9.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/icons/
